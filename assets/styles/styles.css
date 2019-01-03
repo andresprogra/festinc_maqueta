@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0; }
 
-.MainSignUp {
+.MainForm {
   height: 100vh; }
-  .MainSignUp .row {
+  .MainForm .row {
     height: 100%; }
-  .MainSignUp__Left {
+  .MainForm__Left {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,10 +21,12 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
-    .MainSignUp__Left--logo {
+    .MainForm__Left h1 {
+      margin: 20px auto; }
+    .MainForm__Left--logo {
       width: 130px;
       margin: 20px auto; }
-    .MainSignUp__Left--form {
+    .MainForm__Left--form {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -35,20 +37,20 @@
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-    .MainSignUp__Left--login {
+    .MainForm__Left--login {
       font-size: 14px; }
-    .MainSignUp__Left--Label img {
+    .MainForm__Left--Label img {
       width: 30px; }
-    .MainSignUp__Left--Label input[type="text"], .MainSignUp__Left--Label input[type="number"], .MainSignUp__Left--Label input[type="email"],
-    .MainSignUp__Left--Label input[type="date"], .MainSignUp__Left--Label input[type="password"] {
+    .MainForm__Left--Label input[type="text"], .MainForm__Left--Label input[type="number"], .MainForm__Left--Label input[type="email"],
+    .MainForm__Left--Label input[type="date"], .MainForm__Left--Label input[type="password"] {
       padding: 8px;
       border: 1px solid #c00000;
       width: 350px; }
-    .MainSignUp__Left--Label input[type="submit"] {
+    .MainForm__Left--Label input[type="submit"] {
       margin: 30px auto 0 auto; }
-  .MainSignUp__Right {
+  .MainForm__Right {
     height: 100%; }
-    .MainSignUp__Right--img {
+    .MainForm__Right--img {
       height: 100%;
       background: url(../imgs/background_home.jpg) center no-repeat;
       background-size: cover;
