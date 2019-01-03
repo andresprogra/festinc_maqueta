@@ -1,3 +1,75 @@
 * {
   margin: 0;
   padding: 0; }
+
+.MainSignUp {
+  height: 100vh; }
+  .MainSignUp .row {
+    height: 100%; }
+  .MainSignUp__Left {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .MainSignUp__Left--logo {
+      width: 130px;
+      margin: 20px auto; }
+    .MainSignUp__Left--form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .MainSignUp__Left--login {
+      font-size: 14px; }
+    .MainSignUp__Left--Label img {
+      width: 30px; }
+    .MainSignUp__Left--Label input[type="text"], .MainSignUp__Left--Label input[type="number"], .MainSignUp__Left--Label input[type="email"],
+    .MainSignUp__Left--Label input[type="date"], .MainSignUp__Left--Label input[type="password"] {
+      padding: 8px;
+      border: 1px solid #c00000;
+      width: 350px; }
+    .MainSignUp__Left--Label input[type="submit"] {
+      margin: 30px auto 0 auto; }
+  .MainSignUp__Right {
+    height: 100%; }
+    .MainSignUp__Right--img {
+      height: 100%;
+      background: url(../imgs/background_home.jpg) center no-repeat;
+      background-size: cover;
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+
+.btnf {
+  border: none;
+  margin: 10px; }
+  .btnf.btnf-red {
+    background: #c00000;
+    color: white; }
+    .btnf.btnf-red.btnf-sm {
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 5px 40px; }
+
+a {
+  color: #c00000 !important;
+  text-decoration: underline !important;
+  -webkit-text-decoration-color: #c00000 !important;
+  text-decoration-color: #c00000 !important;
+  font-size: inherit !important; }

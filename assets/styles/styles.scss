@@ -2,3 +2,74 @@
   margin: 0;
   padding: 0;
 }
+
+.MainSignUp {
+  height: 100vh;
+  .row {
+    height: 100%;
+  }
+  &__Left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &--logo {
+      width: 130px;
+      margin: 20px auto;
+    }
+    &--form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &--login {
+      font-size: 14px;
+    }
+    &--Label {
+      img{
+        width: 30px;
+      }
+      input[type="text"], input[type="number"], input[type="email"],
+      input[type="date"], input[type="password"] {
+        padding: 8px;
+        border: 1px solid #c00000;
+        width: 350px;
+      }
+      input[type="submit"] {
+        margin: 30px auto 0 auto;
+      }
+    }
+  }
+  &__Right {
+    height: 100%;
+    &--img {
+      height: 100%;
+      background: url(../imgs/background_home.jpg) center no-repeat;
+      background-size: cover;
+      transform: rotate(180deg)
+    }
+  }
+}
+
+.btnf {
+  border: none;
+  margin: 10px;
+  &.btnf-red {
+    background: #c00000;
+    color: white;
+    &.btnf-sm{
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 5px 40px;
+    }
+  }
+
+}
+
+a {
+  color: #c00000 !important;
+  text-decoration: underline !important;
+  text-decoration-color: #c00000 !important;
+  font-size: inherit !important;
+}
